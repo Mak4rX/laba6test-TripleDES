@@ -1,2 +1,5 @@
-pytest>=8.0.0
-pycryptodome>=3.20.0
+pycryptodome
+cryptography
+pytest
+pytest-cov
+bandit
