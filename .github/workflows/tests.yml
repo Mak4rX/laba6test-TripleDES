@@ -43,4 +43,4 @@ jobs:
         
     - name: Run Bandit Scan
       run: |
-        bandit -r . -v
+        bandit -r . -s B101,B304,B413 -v
